@@ -163,3 +163,62 @@ background:#020617;
 font-size:14px;
 color:#94a3b8;
 }
+
+@media (max-width: 768px){
+
+    .hero h1{
+        font-size: 32px;
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+.nav{
+    flex-direction: column;
+    gap: 15px;
+}
+
+nv ul{
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects{
+    gap: 20px;
+ }
+}
+
+@media(max-width: 480px){
+
+    .hero{
+        padding: 60px 15px;
+    }
+
+    .hero h1{
+        font-size: 26px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .skills{
+        gap: 10px;
+    }
+
+    .skill{
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
