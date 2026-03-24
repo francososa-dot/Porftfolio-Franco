@@ -36,3 +36,13 @@ window.addEventListener("scroll", () => {
         }
     });
 });
+
+const logo = document.querySelector(".logo");
+
+logo.addEventListener("mouseenter", () => {
+  logo.style.textShadow = "0 0 20px rgba(56,189,248,0.8)";
+});
+
+logo.addEventListener("mouseleave", () => {
+  logo.style.textShadow = "none";
+});
